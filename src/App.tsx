@@ -19,6 +19,7 @@ const App = () => (
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/courses/:id" element={<div>Course Details (Coming Soon)</div>} />
             </Routes>
           </BrowserRouter>
         </TooltipProvider>
