@@ -1,69 +1,126 @@
-# Welcome to your Lovable project
+# 🎓 Smart Learn Mentor
 
-## Project info
+Smart Learn Mentor is an AI-powered educational technology platform that delivers personalized learning experiences through advanced artificial intelligence and dynamic course generation.
 
-**URL**: https://lovable.dev/projects/4b4e2b2a-fa1f-4561-b5ee-e7bc846d9a1e
+![Smart Learn Mentor](https://img.shields.io/badge/Smart%20Learn-Mentor-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- 🤖 **AI-Powered Learning** - Personalized learning paths adapted to individual needs
+- 🎯 **Interactive Content** - Engaging quizzes and gamified learning elements
+- ⚡ **Real-Time Feedback** - Instant feedback and detailed explanations
+- 👥 **Collaborative Learning** - Connect with peers through forums
+- 📚 **Comprehensive Courses** - Wide range of subjects for all levels
+- 📊 **Progress Tracking** - Advanced analytics to monitor learning journey
 
-**Use Lovable**
+## 🚀 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4b4e2b2a-fa1f-4561-b5ee-e7bc846d9a1e) and start prompting.
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: 
+  - Tailwind CSS
+  - Shadcn UI Components
+  - Radix UI Primitives
+- **State Management**: React Context + Hooks
+- **Animations**: 
+  - Framer Motion
+  - Custom CSS Animations
+- **Theme Management**: next-themes
+- **Routing**: React Router
+- **AI Integration**: OpenAI API
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Installation
 
-**Use your preferred IDE**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/smart-learn-mentor.git
+cd smart-learn-mentor
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. Create a .env file in the root directory:
+```env
+VITE_OPENAI_API_KEY=your_openai_api_key
+```
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 UI Components
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Modern Design System**
+  - Light/Dark theme support
+  - Responsive layouts
+  - Animated gradients
+  - Interactive elements
+  
+- **Custom Animations**
+  - Text gradient animations
+  - Blob animations
+  - Hover effects
+  - Scroll animations
 
-**Use GitHub Codespaces**
+## 🔒 Security
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Environment variable management
+- Secure API key handling
+- Protected routes
+- Input sanitization
 
-## What technologies are used for this project?
+## 📱 Responsive Design
 
-This project is built with .
+- Mobile-first approach
+- Adaptive layouts
+- Touch-friendly interactions
+- Optimized performance
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎯 Future Roadmap
 
-## How can I deploy this project?
+1. **Enhanced AI Features**
+   - Advanced course generation
+   - Personalized learning algorithms
+   - AI-powered study recommendations
 
-Simply open [Lovable](https://lovable.dev/projects/4b4e2b2a-fa1f-4561-b5ee-e7bc846d9a1e) and click on Share -> Publish.
+2. **User Experience**
+   - More interactive elements
+   - Gamification features
+   - Progress rewards
 
-## I want to use a custom domain - is that possible?
+3. **Content Management**
+   - Course creation tools
+   - Resource library
+   - Content recommendation system
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [Shadcn UI](https://ui.shadcn.com/) for the amazing component library
+- [Radix UI](https://www.radix-ui.com/) for accessible primitives
+- [Framer Motion](https://www.framer.com/motion/) for smooth animations
+- [OpenAI](https://openai.com/) for AI capabilities
+
+---
+
+Made with ❤️ by Vedant Aggarwal
