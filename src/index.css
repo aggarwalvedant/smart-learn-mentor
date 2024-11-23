@@ -6,12 +6,12 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 260 40% 98%;
     --foreground: 240 10% 3.9%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 240 5.9% 10%;
-    --radius: 0.75rem;
+    --radius: 1rem;
   }
 
   .dark {
@@ -24,6 +24,7 @@
 
   * {
     @apply border-border;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -42,7 +43,23 @@
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-primary;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-secondary;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:scale-[1.02] hover:bg-accent/5;
+  }
+
+  .nav-link {
+    @apply relative px-3 py-2 transition-colors duration-200 hover:text-accent;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute left-0 bottom-0 w-full h-0.5 bg-accent scale-x-0 transition-transform duration-300 origin-right;
+  }
+
+  .nav-link:hover::after {
+    @apply scale-x-100 origin-left;
   }
 }
 
