@@ -4,6 +4,7 @@ import { CourseList } from "@/components/CourseList";
 import { LearningPathsList } from "@/components/LearningPathsList";
 import { AchievementsList } from "@/components/AchievementsList";
 import { motion } from "framer-motion";
+import "@/index.css";
 
 const Index = () => {
   return (
